@@ -1,0 +1,63 @@
+.Todoapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 400px;
+}
+h1{
+    text-align: center;
+}
+.content>input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+.activeTask{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    margin: 10px;
+    
+}
+.completeTask{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    margin: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+.eachTask span{
+    padding-left: 5px;
+}
+.addTaskBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addTaskBar>input{
+    width: 80%;
+}
+.nav-link-add{
+    background-color: rgb(88, 104, 255);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.delete-btn{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: grey;
+}
+.deleteAll-btn{
+    border: none;
+    background-color: rgb(233, 74, 74);
+    color: white;
+    border-radius: 5px;
+}
